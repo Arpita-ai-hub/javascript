@@ -1,0 +1,28 @@
+"use strict"; // treat all js code as newer version
+//alert(3+3) // we are using nodejs,Not browser
+// code readability should be high
+console.log(3+3)  
+console.log("Arpita")
+
+let name = "Arpita"
+let age = 18
+let isLoggedIn = false
+let state = null
+
+
+
+
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => Not yet assigned value
+// symbol => unique
+
+// Object 
+
+console.log(typeof "Arpita")
+console.log(typeof undefined)// undefined
+console.log(typeof null)// object
+
