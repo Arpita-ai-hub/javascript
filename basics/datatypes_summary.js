@@ -29,3 +29,25 @@ const myFunction = function(){
 console.log(typeof myFunction)
 console.log(typeof anotherId)
 // non primitive datattypes ka return type obeject hi aata hai
+
+// *****************************MEMORY******************************
+// Stack(Primitive), Heap (Non-Primitive)
+let myYoutubename = "hiteshchoudarydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "arpita@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+// stack me copy milta hai and 
+// heap me reference milta hai yaani changes original value me karte hai
